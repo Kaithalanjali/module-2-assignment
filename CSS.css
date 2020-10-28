@@ -1,0 +1,74 @@
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    font-size: 1.75em;
+}
+div {
+    padding: 10px;
+    position: relative;
+}
+@media (min-width: 992px) {
+    .col-md-4 {
+        float: left;
+        width: 33.33%;
+
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-sm-2 {
+
+        width: 50%;
+        float: left;
+    }
+}
+@media(max-width: 991px) {
+    .col-s-12 {
+
+        width: 100%;
+        float: left;
+    }
+}
+ @media(max-width: 767px) {
+    .col-xs-12 {
+
+        width: 100%;
+        float: left;
+    }
+}
+#pink {
+    background-color: lightcoral;
+}
+ #red {
+
+    background-color: red;
+}
+#yellow {
+
+    background-color: rgb(244, 252, 174);
+}
+p {
+    padding: 10px 10px 20px 10px;
+ }
+.title {
+    position: absolute;
+    right: 0px;
+    top: -20px;
+    width: 100px;
+    border: solid black 1px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.25em;
+}
+.content {
+    position: relative;
+    top: 40px;
+    bottom: px;
+}
+.bor {
+    border: solid black 1px;
+}
